@@ -6,6 +6,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 import numpy as np
 
+
 class MinesweeperSolver:
     def __init__(self):
         self.driver = webdriver.Chrome()
